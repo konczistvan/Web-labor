@@ -1,0 +1,45 @@
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a; 
+    color: #f0f0f0; 
+    padding: 20px;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ffcc00; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+
+  button:hover {
+    background-color: #e6b800; 
+  }
+
+  #characterList {
+    list-style-type: decimal;
+    padding-left: 20px;
+  }
+
+  #characterList > li {
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffe066; 
+  }
+
+  #characterList li ul {
+    list-style-type: circle;
+    margin-left: 25px;
+    font-weight: normal;
+    font-size: 16px;
+    color: #ffffffcc; 
+  }
+
+  #characterList li ul li {
+    margin-bottom: 5px;
+  }
